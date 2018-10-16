@@ -108,7 +108,7 @@ public:
       bool Reactive_BuildFAP(const Unit & larva, const Inventory & inv, const Unit_Inventory &ui, const Unit_Inventory &ei); // attempts to do so via a series of FAP simulations.
       bool buildStaticDefence(const Unit & morph_canidate);
       static UnitType returnOptimalUnit(map<UnitType, int>& combat_types, const Research_Inventory &ri); // returns an optimal unit type from set.
-      bool buildOptimalUnit(const Unit &morph_canidate, map<UnitType, int> &combat_types); //Compares a set of units via FAP simulations.
+	  bool buildOptimalUnit(const Unit &morph_canidate, map<UnitType, int> &combat_types); //Compares a set of units via FAP simulations.
 
       // Builds the next building you can afford. Area of constant improvement.
       bool Building_Begin(const Unit &drone, const Inventory &inv, const Unit_Inventory &e_inv);
